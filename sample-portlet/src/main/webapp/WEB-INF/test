@@ -1,0 +1,12 @@
+mvn archetype:generate \
+	-DgroupId=com.isostech.liferay.sample \
+	-DartifactId=sample-portlet1 \
+	-Dversion=1.0-SNAPSHOT \
+	-DarchetypeGroupId=com.liferay.maven.archetypes \
+	-DarchetypeArtifactId=liferay-portlet-archetype \
+    -DinteractiveMode=false
+    
+    
+    Description	Resource	Path	Location	Type
+Can not find the tag library descriptor for "http://java.sun.com/portlet_2_0"	view.jsp	/sample-portlet1/src/main/webapp	line 17	JSP Problem
+    
